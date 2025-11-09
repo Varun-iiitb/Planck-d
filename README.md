@@ -59,11 +59,14 @@ Three models were built and trained:
 ```bash
 git clone https://github.com/<your-username>/QuantumVision.git
 cd QuantumVision
-
+```
 ### 2️⃣ Install Dependencies
+```bash
 pip install torch torchvision matplotlib pennylane
+```
 
 ### 3️⃣ Run Each Model
+``` bash
 # Run the Variational Autoencoder
 jupyter notebook VAE.ipynb
 
@@ -72,4 +75,4 @@ jupyter notebook DCGAN.ipynb
 
 # Run the Quantum–Classical GAN
 jupyter notebook quantum.ipynb
-
+```
